@@ -21,8 +21,19 @@ console.log(typeof(convertToDatatype))
 console.log(convertToDatatype)
 
 
+const id = Symbol('123')
+const new1 = Symbol('123')
+
+console.log(id == new1)
 
 
 
+// const id = 6;
+
+if (true) {
+    let x = 10;
+    console.log(x); // 10
+}
+console.log(x); // ReferenceError: x is not defined
 
 
